@@ -196,6 +196,12 @@
     .modal3 .img{
         margin-top: 30px;
     }
+      
+       .seccion3 .contenedor-redes a{
+        width: 50px;
+        height: 50px;
+    }
+      
   }
 
   @media screen and (max-width: 375px){
