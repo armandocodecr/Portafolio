@@ -212,7 +212,7 @@
     }
     
     .modal2 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .modal3 .img{
@@ -226,7 +226,7 @@
 
   @media screen and (max-width: 337px){
       .modal2 p{
-          font-size: 8px;
+          font-size: 7px;
       }
   }
 
