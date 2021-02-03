@@ -222,6 +222,10 @@
     .modal3 p{
         font-size: 7px;
     }
+      
+   .contenedor-redes h4{
+       font-size:8px;
+          
   }
 
   @media screen and (max-width: 337px){
