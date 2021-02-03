@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  @media screen and (max-width:600px){
+      /* Header */
+
+     .contenedor-imagenes img{
+         width: 90px;
+         height: 90px;
+     }
+
+     .contenedor-imagenes h2{
+         font-size: 30px;
+     }
+
+     .contenedor-imagenes h4{
+        font-size: 15px;
+    }
+
+     /* Proyectos */
+
+      .portafolio h1{
+          font-size: 25px;
+      }
+
+      .portafolio h1::after, h1::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 2px;
+        background-color: #000;
+        top: 0.6em;
+      }
+      
+      .portafolio h1::before {
+        width: 80px;  
+        left: -100px;
+      }
+      
+      .portafolio h1::after {
+        right: -100px;
+      }
+
+      .portafolio p {
+        margin-left: 20px;
+        margin-top: 280px;
+        font-size: 35px;
+      }
+
+
+     /* Habilidades */
+
+      .seccion1 h1{
+        font-size: 25px;
+    }
+
+    .seccion1 h1::after, h1::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      background-color: #000;
+      top: 0.6em;
+    }
+    
+    .seccion1 h1::before {
+      width: 80px;
+      height: 2px;  
+      left: -100px;
+    }
+    
+    .seccion1 h1::after {
+        width: 80px;
+      right: -100px;
+    }
+
+    .seccion1 .contenedor-habilidades img{
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Sobre mi */
+
+    .seccion2 .texto-experiencia{
+      width: 80%;
+      height: 200px;
+      font-size: 20px;
+      margin-bottom: -150px;
+  }
+
+    .titulo{
+      margin-left: 10px;
+      margin-bottom: -150px;
+    }
+
+    .titulo p{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .titulo p::after,.titulo p::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      background-color: #000;
+      top: 0.6em;
+    }
+    
+    .titulo p::before {
+      width: 80px;
+      height: 2px;  
+      left: -100px;
+    }
+    
+    .titulo p::after {
+        width: 80px;
+      right: -100px;
+    }
+
+    .texto-experiencia img{
+     display: none;
+    }
+ 
+
+    /* Contacto */
+
+
+    .seccion3 p{
+        margin-top: 90px;
+        padding-bottom: 50px;
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .seccion3 p::after, p::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      background-color: #000;
+      top: 0.6em;
+    }
+    
+    .seccion3 p::before {
+      width: 80px;
+      height: 2px;  
+      left: -100px;
+    }
+    
+    .seccion3 p::after {
+        width: 80px;
+      right: -100px;
+    }
+
+    .seccion3 input[type="submit"]{
+        width: 80px;
+        height: 50px;
+    }
+
+    .seccion3 input[type="submit"]:hover{
+        width: 90px;
+        height: 60px;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        padding: 0 5px 0 5px;
+    }
+     
+    .contenedor-footer p{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    header .navegador{
+      display: none;
+    }
+
+    .nombre img{
+      margin-top: 5px;
+      width: 40px;
+    }
+
+    .nombre h4{
+      position: relative;
+     padding-top: 5px;
+     padding-left: -50px;
+    }
+
+    .menu-fixed{
+      position: fixed;
+      z-index: 1000;
+      height: 65px;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 0 15px 2px #000;
+    }
+    .menu-fixed img{
+          margin-top: 1px;
+      }
+  
+      .menu-fixed a{
+          margin-top: -10px;
+      }
+
+  }
+
+  @media screen and (max-width: 1040px){
+    /* Texto del sobre mi */
+
+    .titulo{
+      margin-left: 3px;
+    }
+
+    .seccion2 .texto-experiencia{
+      margin-top: 100px;
+     width: 90%;
+     height: 300px;
+     font-size: 20px;
+    }
+
+    .texto-experiencia img{
+      width: 400px;
+      height: 400px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 768px){
+    /* Texto del sobre mi */
+
+
+    .seccion2 .texto-experiencia{
+      width: 90%;
+      margin-top: 100px;
+      font-size: 50px;
+    }
+
+    .texto-experiencia img{
+      width: 300px;
+      height: 300px;
+    }
+    
+  }
+
+  @media screen and (max-width: 375px){
+    /* Texto del sobre mi */
+
+
+    .seccion2 .texto-experiencia{
+      width: 90%;
+      height: 100vh;
+      margin-top: -80px;
+      font-size: 10px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 320px){  
+    .seccion1 h1::before {
+
+      left: -90px;
+    }
+    
+    .seccion1 h1::after {
+
+      right: -90px;
+    }
+
+    .seccion2{
+      margin-top: 170px;
+    }
+
+    .seccion2 .texto-experiencia{
+      width: 50%;
+      height: 800px;
+      font-size: 10px;
+    }
+    }
+
+    @media screen and (max-width: 411px){
+      /* Texto del sobre mi */
+  
+  
+      .seccion2 .texto-experiencia{
+        width: 80%;
+        margin-top: -120px;
+      }
+  
+      
+    }
+
+    @media screen and (max-width: 280px){
+       
+       .portafolio h1{
+           font-size: 30px;
+       }
+       
+       .portafolio h1::after,.portafolio h1::before{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        background-color: #000; 
+        top: 0.6em;
+       }
+       
+       .portafolio h1::before{
+           left: -60px;
+       }
+       
+       .portafolio h1::after{
+           right: -60px;
+       }
+       
+       .portafolio p{
+           margin-left: 8px;
+           margin-top: 280px;
+           font-size: 30px;
+       }
+
+       /* habilidades */
+
+   
+
+    .seccion1 h1{
+      font-size: 30px;
+    }
+
+    .seccion1 h1::after,.seccion1 h1::before{
+      content: '';
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        background-color: #000; 
+        top: 0.6em;
+    }
+
+   .seccion1 h1::before{
+    left: -55px;
+    }
+
+    .seccion1 h1::after{
+      right: -55px;
+    }
+
+    /* Sobre mi */
+
+    .seccion2{
+      font-size: 10px;
+    }
+
+    .titulo p{
+      font-size: 30px;
+
+  }
+
+    .titulo p::after,.titulo p::before{
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #000; 
+      top: 0.6em;
+    }
+  
+    .titulo p::before{
+      left: -60px;
+    }
+  
+    .titulo p::after{
+      right: -60px;
+    }
+
+    /* Contacto */
+
+   .seccion3 p{
+    font-size: 30px;
+  }
+
+   .seccion3 p::after,.seccion3 p::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #000; 
+    top: 0.6em;
+    }
+
+   .seccion3 p::before{
+    left: -70px;
+    }
+
+   .seccion3 p::after{
+    right: -70px;
+    }
+    }
+
+    @media screen and (max-width: 788px){
+     .seccion3 .contenedor-redes h4{
+         font-size: 12px;
+      }
+    }
+
+   @media screen and (max-width: 767px){
+     .seccion2 .texto-experiencia{
+       margin-top: -60px;
+     }
+
+     .seccion2 .texto-experiencia h4{
+      font-size: 20px;
+    }
+   } 
+
+   @media screen and (max-width: 767px){
+    .seccion2 .texto-experiencia{
+      width: 80%;
+      margin-top: -60px;
+    }
+
+    .seccion2 .texto-experiencia h4{
+     font-size: 20px;
+   }
+   } 
+
+   @media screen and (max-width: 364px){
+    .seccion2{
+      width: 100%;
+    }
+
+    .seccion2 .texto-experiencia{
+      width: 80%;
+      margin-top: -140px;
+    }
+  }
+    @media screen and (max-width: 321px){
+      .seccion2{
+        width: 100%;
+      }
+  
+      .seccion2 .texto-experiencia{
+        width: 90%;
+        margin-top: -240px;
+        font-size: 10px;
+      }
+   }

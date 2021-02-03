@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  @media screen and (max-width: 1239px){
+    .modal .img{
+        margin-top: 50px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .modal2 .img{
+     width: 80px;
+     height: 80px;
+ }
+
+ .modal-body2 p{
+     font-size: 14px;
+   } 
+
+ .modal3 .img{
+     margin-top: 100px;
+     width: 80px;
+     height: 80px;
+ }
+
+ .modal-body3 p{
+   font-size: 12px;
+ } 
+  }
+
+  @media screen and (max-width: 1190px){
+      .modal3 .img{
+          margin-top: 50px;
+      }
+  }
+
+  @media screen and (max-width: 1040px){
+
+    .modal-body3 p{
+        margin-top: 50px;
+        font-size: 11px;
+      } 
+
+      .modal .img{
+        margin-top: 50px;
+    }  
+
+      .modal2 .img{
+        margin-top: 50px;
+    }  
+
+    .modal3 .img{
+        margin-top: 50px;
+    }  
+  }
+
+  @media screen and (max-width: 768px){
+      .modal .img{
+          margin-top: 50px;
+      }
+
+      .modal2 .img{
+        margin-top: 50px;
+    }
+
+    .modal3 .img{
+        margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .modal p::after, .modal p::before{
+        display: none;
+    }
+
+    .modal2 p::after, .modal2 p::before{
+        display: none;
+    }
+
+    .modal3 p::after, .modal3 p::before{
+        display: none;
+    }
+
+    .modal3 .img{
+        margin-top: 50px;
+    }
+  }
+
+
+  @media screen and (max-width: 540px){
+    .modal .img{
+        margin-top: 30px;
+    }
+
+    .modal2 .img{
+        margin-top: 30px;
+    }
+
+    .modal3 .img{
+        margin-top: 30px;
+    }
+    
+    .modal2 p{
+          font-size: 13px;
+      }
+
+      .modal3 p{
+          font-size: 10px;
+      }
+  }
+
+  @media screen and (max-width: 484px){
+      .modal p{
+          font-size: 13px;
+      }
+
+      .modal2 p{
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 472px){
+    .modal .img{
+        margin-top: 70px;
+    }
+    
+    .modal2 .img{
+        margin-top: 70px;
+    }
+
+    .modal3 .img{
+        margin-top: 70px;
+    }
+
+    .modal p{
+        font-size: 10px;
+    }  
+    
+    .modal2 p{
+          font-size: 10px;
+      }
+
+      .modal-body3{
+          margin-top: -10px;
+      }
+
+      .modal3 p{
+        font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width: 444px){
+      .modal .img{
+          margin-top: 30px;
+          width: 60px;
+          height: 60px;
+      }
+
+      .modal p{
+          font-size: 13px;
+      }
+
+      .modal2 .img{
+        margin-top: 50px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .modal2 p{
+        font-size: 11px;
+    }
+
+    .modal3 .img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .modal3 p{
+        font-size: 9px;
+    }
+  }
+
+  @media screen and (max-width: 414px){
+      .modal .img{
+          margin-top: 30px;
+      }
+
+      .modal2 .img{
+        margin-top: 30px;
+    }
+
+    .modal3 .img{
+        margin-top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .modal .img{
+        margin-top: 30px;
+    }
+    
+    .modal p{
+        font-size: 11px;
+    }
+
+    .modal2 .img{
+        margin-top: 30px;
+    }
+    
+    .modal2 p{
+        font-size: 10px;
+    }
+
+    .modal3 .img{
+        margin-top: 30px;
+    }
+    
+    .modal3 p{
+        font-size: 7px;
+    }
+  }
+
+  @media screen and (max-width: 337px){
+      .modal2 p{
+          font-size: 8px;
+      }
+  }
+
+
+  @media screen and (max-width: 320px){
+    
+    .modal-body {
+        margin-top: 30px;
+    }
+    
+    .modal p{
+          font-size: 8px;
+      }
+
+      .modal-body2 {
+        margin-top: 30px;
+    }
+
+      .modal2 p{
+        font-size: 7px;
+    }
+
+    .modal-body3 {
+        margin-top: -20px;
+    }
+
+      .modal3 p{
+        font-size: 6px;
+    }
+  }
+
+  @media screen and (max-width: 313px){
+    .modal3 .img{
+        margin-top: 30px;
+    }  
+
+    .modal .img{
+        margin-top: 30px;
+    }  
+
+    .modal2 .img{
+        margin-top: 30px;
+    }  
+
+
+    .modal-body{
+          margin-top: 40px;
+      }
+      
+      .modal .texto-modal{
+         font-size: 18px;
+      }
+
+      .modal p{
+          font-size: 11px;
+      }
+
+
+    .modal2 p{
+        font-size: 9px;
+    }
+
+    .modal3-body{
+        margin-top: 30px;
+    }
+
+    .modal3 p{
+        font-size: 7px;
+    }
+  }
+
+
+    @media screen and (max-width: 280px){
+        .modal .img{
+            margin-top: 40px;
+            width: 60px;
+            height: 60px;
+        }
+       
+        .modal .texto-modal{
+            font-size: 13px;
+         }
+    
+         .modal2 .img{
+            margin-top: 40px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .modal-body2{
+            margin-top: 20px;
+        }
+
+         .modal2 .texto-modal{
+            font-size: 18px;
+         }
+    
+         .modal3 .img{
+            margin-top: 30px;
+            width: 60px;
+            height: 60px;
+        }
+
+         .modal3 .texto-modal{
+            font-size: 17px;
+         }
+
+         .modal-body3{
+             margin-top: -20px;
+         }
+    
+        .modal3 p{
+            font-size: 7px;
+        }
+
+        .seccion3 .contenedor-redes a{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+  @media screen and (max-width: 250px){
+    
+    /* .modal3 .img{
+        margin-top: -50px;
+    } */
+     
+    .modal .texto-modal{
+        font-size: 12px;
+     }
+
+     .modal2 .texto-modal{
+        font-size: 18px;
+     }
+
+     .modal3 .texto-modal{
+        font-size: 17px;
+     }
+
+    .modal3 p{
+        margin-top: 50px;
+    }
+  }
