@@ -260,7 +260,10 @@
       margin-top: -80px;
       font-size: 10px;
     }
-
+    
+     .seccion2 .texto-experiencia .texto{
+        font-size: 15px; 
+      }
     
   }
 
