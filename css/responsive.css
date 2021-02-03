@@ -433,7 +433,8 @@
 
    @media screen and (max-width: 462px){
        .seccion3 .contenedor-redes h4{
-           font-size: 9px
+           margin-left: -10px;
+           font-size: 9px;
        }
 }
 
