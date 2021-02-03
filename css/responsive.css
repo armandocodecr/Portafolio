@@ -8,6 +8,10 @@
   @media screen and (max-width:600px){
       /* Header */
 
+      .seccion p::after, .seccion p::before{
+       display: none;
+     }
+      
      .contenedor-imagenes img{
          width: 90px;
          height: 90px;
