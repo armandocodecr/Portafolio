@@ -252,8 +252,11 @@
 
   @media screen and (max-width: 375px){
     /* Texto del sobre mi */
-
-
+     
+    .banner .contenedor-imagenes h2{
+       font-size: 25px;
+     }
+      
     .seccion2 .texto-experiencia{
       width: 90%;
       height: 100vh;
