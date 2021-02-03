@@ -431,6 +431,12 @@
    }
    } 
 
+   @media screen and (max-width: 462px){
+       .seccion3 .contenedor-redes h4{
+           font-size: 9px
+       }
+}
+
    @media screen and (max-width: 364px){
     .seccion2{
       width: 100%;
