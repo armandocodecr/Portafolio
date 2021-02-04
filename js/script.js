@@ -91,7 +91,7 @@ window.sr = ScrollReveal();
 
  sr.reveal('.contenedor-redes',{
 
-    duration: 3000,
+    duration: 2000,
     origin: 'rigth',
     distance: '-100px'
 
@@ -99,7 +99,7 @@ window.sr = ScrollReveal();
 
  sr.reveal('.contenedor-proyectos',{
 
-    duration: 3000,
+    duration: 2000,
     origin: 'top',
     distance: '-100px'
 
