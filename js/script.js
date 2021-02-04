@@ -51,3 +51,56 @@ window.addEventListener('click', function(e){
         modal.style.display = 'none'
     }
 });
+
+// Animacion a la hora de hacer scroll
+
+window.sr = ScrollReveal();
+
+  sr.reveal('.nombre',{
+
+     duration: 1000,
+     origin: 'bottom',
+     distance: '-100px'
+
+  });
+
+  sr.reveal('.navegador',{
+
+    duration: 2000,
+    origin: 'bottom',
+    distance: '-100px'
+
+ });
+
+ sr.reveal('.texto-experiencia',{
+
+    duration: 2000,
+    origin: 'top',
+    distance: '-100px'
+
+ });
+
+ sr.reveal('.contenedor-habilidades',{
+
+    duration: 2000,
+    origin: 'bottom',
+    distance: '-100px'
+
+ });
+
+
+ sr.reveal('.contenedor-redes',{
+
+    duration: 3000,
+    origin: 'rigth',
+    distance: '-100px'
+
+ });
+
+ sr.reveal('.contenedor-proyectos',{
+
+    duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+
+ });
