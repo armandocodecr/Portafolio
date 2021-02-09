@@ -202,6 +202,10 @@
         height: 50px;
     }
       
+     .seccion2 .texto-experiencia .texto{
+        font-size: 8px;
+    }  
+      
   }
 
   @media screen and (max-width: 375px){
@@ -233,11 +237,24 @@
        font-size:8px;
           
   }
+      
+      .seccion2 .texto-experiencia .texto{
+        font-size: 6px;
+      }
 
   @media screen and (max-width: 337px){
       .modal2 p{
           font-size: 7px;
       }
+      
+.seccion2 .texto-experiencia .texto{
+    font-size: 7px;
+}
+
+  .seccion2 .texto-experiencia img{
+      width: 120px;
+      height: 120px;
+  }
   }
 
 
