@@ -8,6 +8,11 @@
   @media screen and (max-width:600px){
       /* Header */
 
+        .seccion2 .texto-experiencia .texto{
+         margin-top: -150px;
+         font-size: 12px;
+       }
+      
        .seccion1 h2{
         font-size: 12px;
       }
@@ -93,6 +98,12 @@
 
     /* Sobre mi */
 
+     .seccion2 .texto-experiencia img{
+      margin-top: -150px;
+      width: 200px;
+      height: 200px;
+    }
+      
     .seccion2 .texto-experiencia{
       width: 80%;
       height: 200px;
@@ -128,10 +139,6 @@
     .titulo p::after {
         width: 80px;
       right: -100px;
-    }
-
-    .texto-experiencia img{
-     display: none;
     }
  
 
@@ -446,6 +453,10 @@
    } 
 
    @media screen and (max-width: 462px){
+       .seccion2 .texto-experiencia .texto{
+       font-size: 10px;
+     }
+       
        .seccion3 .contenedor-redes h4{
            margin-left: -5px;
            font-size: 9px;
