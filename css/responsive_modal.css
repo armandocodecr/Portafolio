@@ -30,6 +30,15 @@
  .modal-body3 p{
    font-size: 12px;
  } 
+      
+    .modal4 .img{
+     width: 80px;
+     height: 80px;
+ }
+
+ .modal-body4 p{
+     font-size: 14px;
+   }     
   }
 
   @media screen and (max-width: 1190px){
@@ -55,7 +64,11 @@
 
     .modal3 .img{
         margin-top: 50px;
-    }  
+    } 
+      
+         .modal4 .img{
+        margin-top: 50px;
+    } 
   }
 
   @media screen and (max-width: 768px){
@@ -70,6 +83,11 @@
     .modal3 .img{
         margin-top: 50px;
     }
+      
+        .modal4 .img{
+        margin-top: 50px;
+    }
+
   }
 
   @media screen and (max-width: 600px){
@@ -87,6 +105,10 @@
 
     .modal3 .img{
         margin-top: 50px;
+    }
+      
+       .modal4 p::after, .modal4 p::before{
+        display: none;
     }
   }
 
@@ -111,6 +133,14 @@
       .modal3 p{
           font-size: 10px;
       }
+      
+       .modal4 .img{
+        margin-top: 30px;
+    }
+      
+      .modal4 p{
+          font-size: 13px;
+      }
   }
 
   @media screen and (max-width: 484px){
@@ -119,6 +149,10 @@
       }
 
       .modal2 p{
+        font-size: 10px;
+    }
+      
+         .modal4 p{
         font-size: 10px;
     }
   }
@@ -151,6 +185,14 @@
       .modal3 p{
         font-size: 8px;
     }
+      
+          .modal4 .img{
+        margin-top: 70px;
+    }
+      
+       .modal4 p{
+          font-size: 10px;
+      }
   }
 
   @media screen and (max-width: 444px){
@@ -182,6 +224,16 @@
     .modal3 p{
         font-size: 9px;
     }
+      
+        .modal4 .img{
+        margin-top: 50px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .modal4 p{
+        font-size: 11px;
+    }
   }
 
   @media screen and (max-width: 414px){
@@ -196,6 +248,11 @@
     .modal3 .img{
         margin-top: 30px;
     }
+      
+        .modal4 .img{
+        margin-top: 30px;
+    }
+
       
        .seccion3 .contenedor-redes a{
         width: 50px;
@@ -233,6 +290,14 @@
         font-size: 7px;
     }
       
+       .modal4 .img{
+        margin-top: 30px;
+    }
+    
+    .modal4 p{
+        font-size: 8px;
+    }
+      
    .contenedor-redes h4{
        font-size:8px;
           
@@ -244,6 +309,10 @@
 
   @media screen and (max-width: 337px){
       .modal2 p{
+          font-size: 7px;
+      }
+      
+        .modal4 p{
           font-size: 7px;
       }
       
@@ -282,6 +351,14 @@
 
       .modal3 p{
         font-size: 6px;
+    }
+      
+        .modal-body4 {
+        margin-top: 30px;
+    }
+
+      .modal4 p{
+        font-size: 7px;
     }
   }
 
@@ -322,6 +399,14 @@
 
     .modal3 p{
         font-size: 7px;
+    }
+      
+       .modal4 .img{
+        margin-top: 30px;
+    }  
+      
+       .modal4 p{
+        font-size: 9px;
     }
   }
 
@@ -368,6 +453,20 @@
         .modal3 p{
             font-size: 7px;
         }
+        
+        .modal4 .img{
+            margin-top: 40px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .modal-body4{
+            margin-top: 20px;
+        }
+
+         .modal4 .texto-modal{
+            font-size: 18px;
+         }
 
         .seccion3 .contenedor-redes a{
             width: 50px;
@@ -396,4 +495,8 @@
     .modal3 p{
         margin-top: 50px;
     }
+      
+      .modal4 .texto-modal{
+        font-size: 18px;
+     }
   }
