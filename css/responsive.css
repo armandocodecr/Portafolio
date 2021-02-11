@@ -267,17 +267,6 @@
     .banner .contenedor-imagenes h2{
        font-size: 25px;
      }
-      
-    .seccion2 .texto-experiencia{
-      width: 90%;
-      height: 100vh;
-      margin-top: -80px;
-      font-size: 10px;
-    }
-    
-     .seccion2 .texto-experiencia .texto{
-        font-size: 15px; 
-      }
     
   }
 
@@ -292,28 +281,9 @@
       right: -90px;
     }
 
-    .seccion2{
-      margin-top: 170px;
     }
 
-    .seccion2 .texto-experiencia{
-      width: 50%;
-      height: 800px;
-      font-size: 10px;
-    }
-    }
-
-    @media screen and (max-width: 411px){
-      /* Texto del sobre mi */
-  
-  
-      .seccion2 .texto-experiencia{
-        width: 80%;
-        margin-top: -120px;
-      }
-  
-      
-    }
+    
 
     @media screen and (max-width: 280px){
        
@@ -459,24 +429,4 @@
        }
 }
 
-   @media screen and (max-width: 364px){
-    .seccion2{
-      width: 100%;
-    }
-
-    .seccion2 .texto-experiencia{
-      width: 80%;
-      margin-top: -140px;
-    }
-  }
-    @media screen and (max-width: 321px){
-      .seccion2{
-        width: 100%;
-      }
-  
-      .seccion2 .texto-experiencia{
-        width: 90%;
-        margin-top: -240px;
-        font-size: 10px;
-      }
-   }
+ 
