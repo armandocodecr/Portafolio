@@ -323,7 +323,7 @@
   }
       
    .seccion2 .texto-experiencia{
-          margin-top: 400px;
+          margin-top: 500px;
       }
 
       .seccion2 .texto-experiencia .texto{
@@ -446,6 +446,10 @@
        .modal4 p{
         font-size: 9px;
     }
+    
+     .seccion2 .texto-experiencia{
+         margin-top: -100px
+      }       
   }
 
 
