@@ -96,15 +96,6 @@
             font-size: 5px;
           }
         }
-
-        @media screen and (max-width: 321px){
-
-            .seccion2 .texto-experiencia{
-                margin-top: -50px;
-                
-              }
-
-        }
      
 
         /* Ventanas modal */
