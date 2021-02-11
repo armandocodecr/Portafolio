@@ -360,6 +360,10 @@
           font-size: 7px;
       }
       
+      .seccion2 .texto-experiencia{
+          margin-top: -200px;
+      }
+      
     .seccion2 .texto-experiencia .texto{
     font-size: 11px;
 }
