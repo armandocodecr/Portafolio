@@ -278,8 +278,11 @@
         height: 50px;
     }
       
+      .seccion2 .texto-experiencia{
+          margin-top: 200px;
+      }
+      
      .seccion2 .texto-experiencia .texto{
-         margin-top: 200px;
         font-size: 12px;
     }  
       
