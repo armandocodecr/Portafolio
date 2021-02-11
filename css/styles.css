@@ -230,28 +230,27 @@
     right: -140px;
   }
   .seccion1 h2 {
-    font-size: 20px;
-    margin-top: 100px;
-  }
-  .seccion1 .contenedor-habilidades {
-    width: 100%;
-    margin-top: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #ffffff;
-  }
-  
-  .seccion1 .contenedor-habilidades img {
-  width: 70px;
-  height: 70px;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.seccion1 .contenedor-habilidades {
+  width: 100%;
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+}
+.seccion1 .contenedor-habilidades img {
+  width: 80px;
+  height: 80px;
   border-radius: 20%;
   box-shadow: 5px 4px 8px 0px #000;
   margin-top: -75px;
 }
 
 .seccion1 .cont1{
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .seccion1 .cont2{
@@ -265,8 +264,8 @@
 Lo de la clase saber es de la seccion2 */
 
 .seccion2 .saber{ 
-  display:none;
-}    
+display: none;
+}
   
   .flex {
     width: 100%;
