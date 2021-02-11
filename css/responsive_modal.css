@@ -253,6 +253,9 @@
     .modal4 p{
         font-size: 11px;
     }
+      
+     .seccion2{
+         heigth: 900px;
   }
 
   @media screen and (max-width: 414px){
