@@ -8,10 +8,10 @@
   @media screen and (max-width:600px){
       /* Header */
 
-        .seccion2 .texto-experiencia .texto{
-         margin-top: -150px;
-         font-size: 12px;
-       }
+        .seccion2 .texto-experiencia{
+        width: 80%;
+       margin-top: 100px;
+     }
       
        .seccion1 h2{
         font-size: 12px;
