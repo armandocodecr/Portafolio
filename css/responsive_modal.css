@@ -47,6 +47,12 @@
       }
   }
 
+ @media screen and (max-width: 1168px){
+    .seccion2 .texto-experiencia{
+        margin-top: -150px;
+      }
+  }
+
   @media screen and (max-width: 1040px){
 
     .modal-body3 p{
@@ -155,6 +161,15 @@
          .modal4 p{
         font-size: 10px;
     }
+      
+       .seccion2 .texto-experiencia h4{
+        font-size: 14px;
+    }
+
+    .seccion2 .texto-experiencia h1{
+        padding-top: 20px;
+        font-size: 25px;
+    }  
   }
 
   @media screen and (max-width: 472px){
@@ -260,7 +275,7 @@
     }
       
      .seccion2 .texto-experiencia .texto{
-        font-size: 8px;
+        font-size: 12px;
     }  
       
   }
@@ -303,9 +318,18 @@
           
   }
       
-      .seccion2 .texto-experiencia .texto{
-        font-size: 6px;
+   .seccion2 .texto-experiencia{
+          margin-top: 500px;
       }
+
+      .seccion2 .texto-experiencia .texto{
+        font-size: 11px;
+      }
+
+      .seccion2 .texto-experiencia h1{
+        font-size: 22px;
+      }
+}
 
   @media screen and (max-width: 337px){
       .modal2 p{
@@ -316,14 +340,9 @@
           font-size: 7px;
       }
       
-.seccion2 .texto-experiencia .texto{
-    font-size: 7px;
+    .seccion2 .texto-experiencia .texto{
+    font-size: 11px;
 }
-
-  .seccion2 .texto-experiencia img{
-      width: 120px;
-      height: 120px;
-  }
   }
 
 
@@ -360,6 +379,10 @@
       .modal4 p{
         font-size: 7px;
     }
+      
+      .seccion2 .texto-experiencia{
+        margin-top: 180px;
+    }  
   }
 
   @media screen and (max-width: 313px){
