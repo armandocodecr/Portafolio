@@ -337,7 +337,7 @@
   }
       
    .seccion2 .texto-experiencia{
-          margin-top: 400px;
+          margin-top: 200px;
       }
 
       .seccion2 .texto-experiencia .texto{
@@ -348,11 +348,7 @@
         font-size: 22px;
       }
       
-      .seccion2 .saber{
-        display: block;
-        font-size: 17px;
-        margin-top: -450px;
-    }   
+  
 }
 
   @media screen and (max-width: 337px){
@@ -406,7 +402,7 @@
     }
       
       .seccion2 .texto-experiencia{
-        margin-top: 50px;
+        margin-top: 180px;
     } 
       
       .seccion2 .saber{
