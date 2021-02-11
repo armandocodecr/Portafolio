@@ -261,14 +261,6 @@
     
   }
 
-  @media screen and (max-width: 375px){
-    /* Texto del sobre mi */
-     
-    .banner .contenedor-imagenes h2{
-       font-size: 25px;
-     }
-    
-  }
 
   @media screen and (max-width: 320px){  
     .seccion1 h1::before {
