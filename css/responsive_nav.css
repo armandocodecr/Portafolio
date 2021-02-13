@@ -91,11 +91,7 @@
 
         }
 
-        @media screen and (max-width: 349px){
-          .seccion .texto-experiencia{
-            font-size: 5px;
-          }
-        }
+
      
 
         /* Ventanas modal */
