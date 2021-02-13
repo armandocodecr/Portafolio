@@ -172,7 +172,7 @@
     }
       
        .seccion2 .texto-experiencia{
-        margin-top: 150px;
+        margin-top: -50px;
     }
       
        .seccion2 .texto-experiencia h4{
@@ -221,6 +221,8 @@
        .modal4 p{
           font-size: 10px;
       }
+      
+
   }
 
   @media screen and (max-width: 444px){
