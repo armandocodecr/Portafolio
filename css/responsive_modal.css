@@ -149,7 +149,7 @@
       }
       
       .seccion2.texto-experiencia{
-         margin-top: 150px;
+         margin-top: -50px;
      } 
   }
 
@@ -172,7 +172,7 @@
     }
       
        .seccion2 .texto-experiencia{
-        margin-top: -50px;
+        margin-top: 150px;
     }
       
        .seccion2 .texto-experiencia h4{
