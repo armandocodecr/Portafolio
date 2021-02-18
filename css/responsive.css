@@ -391,6 +391,7 @@
 
    @media screen and (max-width: 767px){
      .seccion2 .texto-experiencia{
+       width: 80%;  
        margin-top: 100px;
      }
 
@@ -399,16 +400,6 @@
     }
    } 
 
-   @media screen and (max-width: 767px){
-    .seccion2 .texto-experiencia{
-      width: 80%;
-      margin-top: -60px;
-    }
-
-    .seccion2 .texto-experiencia h4{
-     font-size: 20px;
-   }
-   } 
 
    @media screen and (max-width: 462px){
        .seccion2 .texto-experiencia .texto{
