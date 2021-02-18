@@ -251,12 +251,14 @@
   @media screen and (max-width: 768px){
     /* Texto del sobre mi */
 
+    .seccion2 .texto-experiencia{
+       width: 80%;  
+       margin-top: -60px;
+     }
 
-     .seccion2 .texto-experiencia{
-    width: 90%;
-    margin-top: 100px;
-    font-size: 50px;
-  }
+     .seccion2 .texto-experiencia h4{
+      font-size: 20px;
+    }
 
     
   }
@@ -389,16 +391,7 @@
       }
     }
 
-   @media screen and (max-width: 767px){
-     .seccion2 .texto-experiencia{
-       width: 80%;  
-       margin-top: -60px;
-     }
-
-     .seccion2 .texto-experiencia h4{
-      font-size: 20px;
-    }
-   } 
+  
 
 
    @media screen and (max-width: 462px){
