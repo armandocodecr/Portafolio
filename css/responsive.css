@@ -392,7 +392,7 @@
    @media screen and (max-width: 767px){
      .seccion2 .texto-experiencia{
        width: 80%;  
-       margin-top: 100px;
+       margin-top: -60px;
      }
 
      .seccion2 .texto-experiencia h4{
