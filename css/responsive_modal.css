@@ -311,7 +311,7 @@
   }
       
       .seccion3 .contenedor-redes a{
-          margin-top: -100px;
+          padding-top: -100px;
       }
 
   @media screen and (max-width: 375px){
