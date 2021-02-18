@@ -172,7 +172,7 @@
     }
       
        .seccion2 .texto-experiencia{
-        margin-top: -50px;
+        margin-top: 200px;
     }
       
        .seccion2 .texto-experiencia h4{
@@ -222,6 +222,9 @@
           font-size: 10px;
       }
       
+      .seccion2 .texto-experiencia{
+          margin-top: 150px;
+      }
 
   }
 
@@ -267,7 +270,7 @@
       
 
     .seccion2 .texto-experiencia{
-        margin-top: 50px;
+        margin-top: 200px;
     }
       
   }
@@ -296,7 +299,7 @@
     }
       
     .seccion2 .texto-experiencia{
-        margin-top: -50px
+        margin-top: 200px
     }
       
      .seccion2 .texto-experiencia .texto{
@@ -344,7 +347,7 @@
   }
       
      .seccion2 .texto-experiencia{
-          margin-top: 200px;
+          margin-top: 20px;
       }
 
       .seccion2 .texto-experiencia .texto{
