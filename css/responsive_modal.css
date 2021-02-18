@@ -222,9 +222,7 @@
           font-size: 10px;
       }
       
-      .seccion2 .texto-experiencia{
-          margin-top: 50px;
-      }
+  
 
   }
 
@@ -270,7 +268,7 @@
       
 
     .seccion2 .texto-experiencia{
-        margin-top: 200px;
+        margin-top: -50px;
     }
       
   }
