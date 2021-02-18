@@ -313,6 +313,7 @@
       .seccion3 .contenedor-redes a{
           padding-top: -100px;
       }
+}    
 
   @media screen and (max-width: 375px){
     .modal .img{
