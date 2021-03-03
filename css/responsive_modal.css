@@ -373,6 +373,11 @@
 }
 
   @media screen and (max-width: 337px){
+      
+      .seccion2 .texto-experiencia {
+       margin-top: 50px;
+      }
+      
       .modal2 p{
           font-size: 7px;
       }
