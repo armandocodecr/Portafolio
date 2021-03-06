@@ -5,7 +5,28 @@
     outline: 0;
   }
 
-  @media screen and (max-width: 1239px){
+  @media screen and (max-width: 1244px){
+      
+      .caja-galeria{
+      width: 400px;
+      height: 250px;
+    }
+
+   .flex5 .contenido-modal5 img{
+       width: 350px;
+        height: 200px;
+    }
+
+    .flex5 .contenido-modal5 p{
+        font-size: 16px;
+     }
+
+     .flex5 .modal-body5 img{
+        position: absolute;
+        margin-top: -60px;
+        width: 25px;
+     }
+      
     .modal .img{
         margin-top: 50px;
         width: 80px;
@@ -47,6 +68,12 @@
       }
   }
 
+ @media screen and (max-width: 1150px){
+    .flex5 .contenido-modal5 p{
+        font-size: 14px;
+     }
+  }
+
  @media screen and (max-width: 1168px){
     .seccion2 .texto-experiencia{
         margin-top: -150px;
@@ -55,6 +82,10 @@
 
   @media screen and (max-width: 1040px){
 
+     .flex5 .contenido-modal5 p{
+        font-size: 13px;
+     }
+      
     .modal-body3 p{
         margin-top: 50px;
         font-size: 11px;
@@ -77,6 +108,18 @@
     } 
   }
 
+   @media screen and (max-width: 967px){
+    .flex5 .contenido-modal5 .img{
+        width: 330px;
+         height: 180px;
+     }
+
+     .flex5 .modal-body5 img{
+         margin-left: -10px;
+     }
+  }
+
+
   @media screen and (max-width: 768px){
       .modal .img{
           margin-top: 50px;
@@ -97,6 +140,11 @@
   }
 
   @media screen and (max-width: 600px){
+       .contenido-modal5{
+        width: 500px;
+        
+      }
+      
     .modal p::after, .modal p::before{
         display: none;
     }
@@ -116,10 +164,35 @@
        .modal4 p::after, .modal4 p::before{
         display: none;
     }
+      
+      .modal5 p::after, .modal5 p::before{
+        display: none;
+    }
   }
 
 
   @media screen and (max-width: 540px){
+      
+      .contenido-modal5{
+        width: 450px;
+        height: 400px;
+    }
+
+    .flex5 .contenido-modal5 .img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .flex5 .modal-body5 p{
+        font-size: 10px;
+    }
+
+    .flex5 .modal-body5 img{
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+      
     .modal .img{
         margin-top: 30px;
     }
@@ -154,6 +227,28 @@
   }
 
   @media screen and (max-width: 484px){
+      
+          .contenido-modal5{
+        width: 400px;
+        height: 300px;
+    }
+
+    .flex5 .contenido-modal5 .img{
+        margin-top: 15px;
+        width: 220px;
+        height: 100px;
+    }
+
+    .flex5 .modal-body5 p{
+        font-size: 8px;
+    }
+
+    .flex5 .modal-body5 img{
+        margin-top: 15px;
+        width: 15px;
+        height: 15px;
+    }
+      
       .modal p{
           font-size: 13px;
       }
@@ -274,6 +369,27 @@
   }
 
   @media screen and (max-width: 414px){
+       .contenido-modal5{
+        width: 350px;
+        height: 300px;
+    }
+
+    .flex5 .contenido-modal5 .img{
+        margin-top: 15px;
+        width: 220px;
+        height: 100px;
+    }
+
+    .flex5 .modal-body5 p{
+        font-size: 8px;
+    }
+
+    .flex5 .modal-body5 img{
+        margin-top: 10px;
+        width: 12px;
+        height: 12px;
+    }
+      
       .modal .img{
           margin-top: 30px;
       }
@@ -320,6 +436,33 @@
 }    
 
   @media screen and (max-width: 375px){
+      
+       .contenido-modal5 h2{
+         font-size: 18px;
+     }
+
+    .contenido-modal5{
+        width: 300px;
+        height: 280px;
+    }
+
+    .flex5 .contenido-modal5 .img{
+        margin-top: 15px;
+        width: 190px;
+        height: 100px;
+    }
+
+    .flex5 .modal-body5 p{
+        margin-top: -10px;
+        font-size: 7px;
+    }
+
+    .flex5 .modal-body5 img{
+        margin-top: 7px;
+        width: 10px;
+        height: 10px;
+    }
+      
     .modal .img{
         margin-top: 30px;
     }
@@ -400,6 +543,27 @@
 }
 
   @media screen and (max-width: 320px){
+      
+          .contenido-modal5{
+        width: 270px;
+        height: 300px;
+    }
+
+    .flex5 .contenido-modal5 .img{
+        margin-top: 18px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .flex5 .modal-body5 p{
+        font-size: 7px;
+    }
+
+    .flex5 .modal-body5 img{
+        margin-top: 15px;
+        width: 15px;
+        height: 15px;
+    }
     
     .modal-body {
         margin-top: 30px;
@@ -490,6 +654,28 @@
 
 
     @media screen and (max-width: 280px){
+        
+           .contenido-modal5{
+            width: 250px;
+            height: 300px;
+        }
+    
+        .flex5 .contenido-modal5 .img{
+            margin-top: 18px;
+            width: 200px;
+            height: 100px;
+        }
+    
+        .flex5 .modal-body5 p{
+            font-size: 7px;
+        }
+    
+        .flex5 .modal-body5 img{
+            margin-top: 15px;
+            width: 15px;
+            height: 15px;
+        }
+        
         .modal .img{
             margin-top: 40px;
             width: 60px;
@@ -557,6 +743,27 @@
     }
 
   @media screen and (max-width: 250px){
+      
+       .contenido-modal5{
+        width: 230px;
+        height: 300px;
+    }
+
+    .flex5 .contenido-modal5 .img{
+        margin-top: 18px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .flex5 .modal-body5 p{
+        font-size: 7px;
+    }
+
+    .flex5 .modal-body5 img{
+        margin-top: 15px;
+        width: 15px;
+        height: 15px;
+    }
     
     /* .modal3 .img{
         margin-top: -50px;
