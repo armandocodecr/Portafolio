@@ -626,8 +626,8 @@ display: none;
   }
   }
   .contenido-modal5 .img {
-  width: 60%;
-  height: 301px;
+  width: 70%;
+  height: 20px;
   margin-top: 40px;
   box-shadow: 2px 3px 10px 1px #000;
   }
@@ -638,15 +638,15 @@ display: none;
   }
   
   .modal-body5 {
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 30px;
   }
 
   .modal-body5 img{
     cursor: pointer;
     margin-top: 35px;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     }
   
   .close5 {
