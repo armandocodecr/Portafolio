@@ -121,6 +121,16 @@
 
 
   @media screen and (max-width: 768px){
+      
+       .caja-hover h2{
+      font-size: 20px;
+    }
+      
+        .caja-galeria{
+         width: 40%;
+         height: 200px;
+     }
+      
       .modal .img{
           margin-top: 50px;
       }
@@ -140,6 +150,12 @@
   }
 
   @media screen and (max-width: 600px){
+      
+       .caja-galeria{
+        width: 45%;
+        height: 150px;
+    }
+      
        .contenido-modal5{
         width: 500px;
         
@@ -227,6 +243,11 @@
   }
 
   @media screen and (max-width: 484px){
+      
+       .caja-galeria{
+        width: 50%;
+        height: 130px;
+    }
       
           .contenido-modal5{
         width: 400px;
@@ -322,6 +343,11 @@
   }
 
   @media screen and (max-width: 444px){
+      
+       .caja-hover h2{
+         font-size: 17px;
+     }
+      
       .modal .img{
           margin-top: 30px;
           width: 60px;
@@ -437,6 +463,11 @@
 
   @media screen and (max-width: 375px){
       
+       .caja-galeria{
+        width: 60%;
+        height: 110px;
+    }
+      
        .contenido-modal5 h2{
          font-size: 18px;
      }
@@ -543,6 +574,16 @@
 }
 
   @media screen and (max-width: 320px){
+      
+        .caja-hover h2{
+        font-size: 12px;
+    }
+      
+      
+       .caja-galeria{
+        width: 65%;
+        height: 90px;
+    }
       
           .contenido-modal5{
         width: 270px;
