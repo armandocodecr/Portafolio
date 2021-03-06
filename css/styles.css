@@ -626,7 +626,7 @@ display: none;
   }
   }
   .contenido-modal5 .img {
-  width: 70%;
+  width: 65%;
   height: 200px;
   margin-top: 40px;
   box-shadow: 2px 3px 10px 1px #000;
@@ -644,7 +644,7 @@ display: none;
 
   .modal-body5 img{
     cursor: pointer;
-    margin-top: 35px;
+    margin-top: 30px;
     width: 25px;
     height: 25px;
     }
