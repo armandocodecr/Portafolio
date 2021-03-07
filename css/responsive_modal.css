@@ -27,6 +27,18 @@
         width: 25px;
      }
       
+      .flex2 .contenido-modal2 img{
+        margin-top: 80px;
+     }
+
+     .flex3 .contenido-modal3 img{
+        margin-top: 80px;
+     }
+
+     .flex4 .contenido-modal4 img{
+        margin-top: 90px;
+     }
+      
     .modal .img{
         margin-top: 50px;
         width: 80px;
