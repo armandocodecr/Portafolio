@@ -67,7 +67,13 @@ window.addEventListener('click', function(e){
 let modal5 = document.getElementById('miModal5');
 let flex5 = document.getElementById('flex5');
 let abrir5 = document.getElementById('uno');
+let abrir6 = document.getElementById('uno1');
 let cerrar5 = document.getElementById('close5');
+
+abrir6.addEventListener('click', function(e){
+    e.preventDefault();
+    modal5.style.display = 'block';
+});
 
 abrir5.addEventListener('click', function(e){
     e.preventDefault();
