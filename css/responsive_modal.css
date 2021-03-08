@@ -561,7 +561,7 @@
   @media screen and (max-width: 337px){
       
 
-      .seccion2 .texto-experiencia {
+      .seccion2 .texto-experiencia .texto{
           margin-top: 40px
       }
       
