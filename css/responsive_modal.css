@@ -451,7 +451,7 @@
     }
       
     .seccion2 .texto-experiencia{
-        margin-top: 60px
+        margin-top: 40px
     }
       
      .seccion2 .texto-experiencia .texto{
@@ -561,6 +561,9 @@
   @media screen and (max-width: 337px){
       
 
+      .seccion2 .texto-experiencia {
+          margin-top: 40px
+      }
       
       .modal2 p{
           font-size: 7px;
