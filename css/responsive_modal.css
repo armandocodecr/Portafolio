@@ -550,6 +550,10 @@
       .seccion2 .texto-experiencia .texto{
         font-size: 11px;
       }
+      
+      .seccion2 .texto-experiencia h4{
+        font-size: 11px;
+      }
 
       .seccion2 .texto-experiencia h1{
         font-size: 22px;
