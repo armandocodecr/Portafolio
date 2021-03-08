@@ -394,19 +394,6 @@
   
 
 
-   @media screen and (max-width: 462px){
-       .seccion2 .texto-experiencia .texto{
-       font-size: 10px;
-     }
-       
-      .seccion2 .texto-experiencia h4{
-       font-size: 8px;
-     }
-       
-       .seccion3 .contenedor-redes h4{
-           margin-left: -5px;
-           font-size: 9px;
-       }
-}
+ 
 
  
