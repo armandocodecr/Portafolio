@@ -582,7 +582,7 @@
       
 
       .seccion2 .texto-experiencia .texto{
-          margin-top: 50px
+          margin-top: 20px
       }
       
       .seccion2 .texto-experiencia h4{
@@ -677,7 +677,7 @@
         font-size: 7px;
     }
       
-   .seccion2 .texto-experiencia .texto{
+   .seccion2 .texto-experiencia {
         margin-top: -10px;
     }
  
