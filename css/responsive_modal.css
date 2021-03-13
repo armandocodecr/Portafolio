@@ -457,27 +457,27 @@
           margin-top: -40px;
       }
       
-      .modal .modal-body p{
+      .modal .contenido-modal .modal-body p{
         font-size: 9px;
     }
 
      .modal2 .contenido-modal2 .img{
-        margin-top: -40px;
+        margin-top: 30px;
     }
 
     .modal2 .modal-body2 p{
         font-size: 10px;
     }
 
-    .modal3 .img{
-        margin-top: -40px;
+    .modal3 .contenido-modal3 .img{
+        margin-top: 30px;
     }
       
     .modal3 .modal-body3 p{
         font-size: 8px;
     }  
       
-    .modal4 .img{
+    .modal4 .contenido-modal4 .img{
         margin-top: -40px;
     }
       
