@@ -427,6 +427,11 @@
   }
 
   @media screen and (max-width: 414px){
+      
+      .texto-modal{
+      font-size: 23px;
+      }
+      
        .contenido-modal5{
         width: 350px;
         height: 300px;
@@ -452,8 +457,12 @@
           margin-top: 30px;
       }
 
-      .modal2 .img{
-        margin-top: 30px;
+     .modal2 .img{
+        margin-top: 20px;
+    }
+
+    .modal2 .modal-body2 p{
+        font-size: 11px;
     }
 
     .modal3 .img{
