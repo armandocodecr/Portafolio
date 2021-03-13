@@ -453,32 +453,32 @@
         height: 12px;
     }
       
-      .modal .img{
-          margin-top: -40px;
+      .modal .contenido-modal2 .img{
+          margin-top: 40px;
       }
       
-      .modal .contenido-modal .modal-body p{
+      .modal .modal-body p{
         font-size: 9px;
     }
 
      .modal2 .contenido-modal2 .img{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .modal2 .modal-body2 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .modal3 .contenido-modal3 .img{
-        margin-top: 30px;
+        margin-top: 40px;
     }
       
     .modal3 .modal-body3 p{
-        font-size: 8px;
+        font-size: 7px;
     }  
       
     .modal4 .contenido-modal4 .img{
-        margin-top: -40px;
+        margin-top: 40px;
     }
       
    .modal4 .modal-body4 p{
