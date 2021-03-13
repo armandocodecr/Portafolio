@@ -605,6 +605,13 @@
 
   @media screen and (max-width: 337px){
       
+       .modal2 p{
+          font-size: 7px;
+      }
+      
+        .modal4 p{
+          font-size: 7px;
+      }
 
       .seccion2 .texto-experiencia .texto{
           margin-top: 50px
@@ -614,41 +621,7 @@
           font-size: 10px;
       }
       
-      .modal .img{
-        width: 50px;
-      height: 50px;
-        margin-top: 10px;
-    }
-
-    .modal2 .img{
-        width: 50px;
-      height: 50px;
-      margin-top: 10px;
-  }
-
-  .modal2 .modal-body2 p{
-      font-size: 8px;
-  }
-
-  .modal3 .img{
-    width: 50px;
-    height: 50px;
-      margin-top: 10px;
-  }
-    
-  .modal3 .modal-body3 p{
-    font-size: 7px;
-}
-
-      .modal4 .img{
-      width: 50px;
-      height: 50px;
-      margin-top: 10px;
-  }
-      
-  .modal4 .modal-body4 p{
-    font-size: 7px;
-} 
+     
       
       
     .seccion2 .texto-experiencia .texto{
@@ -698,37 +671,41 @@
         height: 15px;
     }
     
-    .modal-body {
-        margin-top: 30px;
+     .modal .img{
+        width: 50px;
+      height: 50px;
+        margin-top: 10px;
     }
+
+    .modal2 .img{
+        width: 50px;
+      height: 50px;
+      margin-top: 10px;
+  }
+
+  .modal2 .modal-body2 p{
+      font-size: 8px;
+  }
+
+  .modal3 .img{
+    width: 50px;
+    height: 50px;
+      margin-top: 10px;
+  }
     
-    .modal p{
-          font-size: 8px;
-      }
+  .modal3 .modal-body3 p{
+    font-size: 7px;
+}
 
-      .modal-body2 {
-        margin-top: 30px;
-    }
-
-      .modal2 p{
-        font-size: 7px;
-    }
-
-    .modal-body3 {
-        margin-top: -20px;
-    }
-
-      .modal3 p{
-        font-size: 6px;
-    }
+      .modal4 .img{
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+  }
       
-        .modal-body4 {
-        margin-top: 30px;
-    }
-
-      .modal4 p{
-        font-size: 7px;
-    }
+  .modal4 .modal-body4 p{
+    font-size: 7px;
+} 
       
    .seccion2 .texto-experiencia {
         margin-top: -10px;
