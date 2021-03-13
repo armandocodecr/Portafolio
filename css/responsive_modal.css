@@ -372,6 +372,10 @@
 
   @media screen and (max-width: 444px){
       
+      .titulo p{
+      padding-bottom: 20px
+      }
+      
        .caja-hover h2{
          font-size: 17px;
      }
