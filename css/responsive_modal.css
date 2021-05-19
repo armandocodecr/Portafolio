@@ -17,7 +17,7 @@
    }
     
     .flex2 .contenido-modal2 img{
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
    .flex2 .contenido-modal2{
@@ -35,8 +35,13 @@
 
    .flex3 .contenido-modal3{
       width: 35%;
-      height: 55%;
+      height: 50%;
    }
+    
+      .modal-body3 p{
+     font-size: 17px;
+   } 
+
 
   }
 
