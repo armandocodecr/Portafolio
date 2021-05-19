@@ -5,7 +5,7 @@
     outline: 0;
   }
 
-@media screen and (max-width: 1444px){
+/* @media screen and (max-width: 1444px){
 
      .flex .contenido-modal img{
     margin-top: 60px;
@@ -57,7 +57,7 @@
 
 
   }
-
+*/
   @media screen and (max-width: 1244px){
       
       .caja-galeria{
