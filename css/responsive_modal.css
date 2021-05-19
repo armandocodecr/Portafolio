@@ -35,10 +35,23 @@
 
    .flex3 .contenido-modal3{
       width: 35%;
-      height: 50%;
+      height: 48%;
    }
     
       .modal-body3 p{
+     font-size: 17px;
+   } 
+    
+         .flex3 .contenido-modal4 img{
+    margin-top: 50px;
+  }
+
+   .flex4 .contenido-modal4{
+      width: 35%;
+      height: 48%;
+   }
+    
+      .modal-body4 p{
      font-size: 17px;
    } 
 
