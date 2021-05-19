@@ -5,6 +5,15 @@
     outline: 0;
   }
 
+@media screen and (max-width: 1444px){
+
+   .flex .contenido-modal{
+      width: 35%;
+      height: 55%;
+   }
+
+  }
+
   @media screen and (max-width: 1244px){
       
       .caja-galeria{
