@@ -22,8 +22,12 @@
 
    .flex2 .contenido-modal2{
       width: 35%;
-      height: 55%;
+      height: 45%;
    }
+    
+     .modal-body2 p{
+     font-size: 17px;
+   } 
 
   }
 
