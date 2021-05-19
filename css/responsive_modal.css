@@ -28,6 +28,15 @@
      .modal-body2 p{
      font-size: 17px;
    } 
+    
+     .flex3 .contenido-modal3 img{
+    margin-top: 50px;
+  }
+
+   .flex3 .contenido-modal3{
+      width: 35%;
+      height: 55%;
+   }
 
   }
 
