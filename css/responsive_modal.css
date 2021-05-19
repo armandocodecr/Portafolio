@@ -7,6 +7,10 @@
 
 @media screen and (max-width: 1444px){
 
+     .flex .contenido-modal img{
+    margin-top: 30px;
+  }
+    
    .flex .contenido-modal{
       width: 35%;
       height: 40%;
