@@ -5,23 +5,56 @@
     outline: 0;
   }
 
-   
-  @media screen and (max-width: 1444px){
-   #sec3 .texto-experiencia{
-       font-size: 18px;
-   }
+/* @media screen and (max-width: 1444px){
+     .flex .contenido-modal img{
+    margin-top: 60px;
   }
-
-  /* @media screen and (max-height: 1366px){
-    #sec3 .texto-experiencia{
-        height: 35%;
-    }
-} */
-
+    
+   .flex .contenido-modal{
+      width: 35%;
+      height: 40%;
+   }
+    
+    .flex2 .contenido-modal2 img{
+    margin-top: 60px;
+  }
+   .flex2 .contenido-modal2{
+      width: 35%;
+      height: 45%;
+   }
+    
+     .modal-body2 p{
+     font-size: 17px;
+   } 
+    
+     .flex3 .contenido-modal3 img{
+    margin-top: 50px;
+  }
+   .flex3 .contenido-modal3{
+      width: 35%;
+      height: 48%;
+   }
+    
+      .modal-body3 p{
+     font-size: 17px;
+   } 
+    
+         .flex4 .contenido-modal4 img{
+    margin-top: 70px;
+  }
+   .flex4 .contenido-modal4{
+      width: 35%;
+      height: 45%;
+   }
+    
+      .modal-body4 p{
+     font-size: 17px;
+   } 
+  }
+*/
   @media screen and (max-width: 1244px){
-
-
-    .caja-galeria{
+      
+      .caja-galeria{
       width: 400px;
       height: 250px;
     }
@@ -29,7 +62,6 @@
    .flex5 .contenido-modal5 img{
        width: 350px;
         height: 200px;
-
     }
 
     .flex5 .contenido-modal5 p{
@@ -41,8 +73,8 @@
         margin-top: -60px;
         width: 25px;
      }
-
-     .flex2 .contenido-modal2 img{
+      
+      .flex2 .contenido-modal2 img{
         margin-top: 80px;
      }
 
@@ -53,7 +85,7 @@
      .flex4 .contenido-modal4 img{
         margin-top: 90px;
      }
-
+      
     .modal .img{
         margin-top: 50px;
         width: 80px;
@@ -86,20 +118,7 @@
 
  .modal-body4 p{
      font-size: 14px;
-   } 
-   
-   #sec3 .texto-experiencia{
-       font-size: 17px;
-   }
-   
-  }
-
-
-  @media screen and (max-width: 1150px){
-
-    .flex5 .contenido-modal5 p{
-        font-size: 14px;
-     }
+   }     
   }
 
   @media screen and (max-width: 1190px){
@@ -108,17 +127,24 @@
       }
   }
 
-  @media screen and (max-width: 1040px){
-  /* AQUI */
-    #sec3 .texto-experiencia{
-        height: 65%;
-        margin-top: 60px;
-    }
-
+ @media screen and (max-width: 1150px){
     .flex5 .contenido-modal5 p{
+        font-size: 14px;
+     }
+  }
+
+ @media screen and (max-width: 1168px){
+    .seccion2 .texto-experiencia{
+        margin-top: -150px;
+      }
+  }
+
+  @media screen and (max-width: 1040px){
+
+     .flex5 .contenido-modal5 p{
         font-size: 13px;
      }
-
+      
     .modal-body3 p{
         margin-top: 50px;
         font-size: 11px;
@@ -141,10 +167,7 @@
     } 
   }
 
-
-
-
-  @media screen and (max-width: 967px){
+   @media screen and (max-width: 967px){
     .flex5 .contenido-modal5 .img{
         width: 330px;
          height: 180px;
@@ -155,54 +178,18 @@
      }
   }
 
-  @media screen and (max-width: 895px){
-
-   #sec3 .texto{
-       padding-top: 25px;
-   }
-
-    #sec3 img{
-      width: 700px;
-      height: 600px;
-    }
-  
-    .seccion2 h1{
-      font-size: 28px;
-    }
-  
-    #sec3 .texto-experiencia{
-      width: 70%;
-      height: 50%;
-        font-size: 14px;
-      }
-  
-  }
-
-  
-  @media screen and (max-width: 807px){
-
-
-    .navegador a{
-        font-size: 13px;
-        width: 120px;
-    } 
-
-    #sec3 .texto-experiencia{
-        font-size: 13px;
-      }
-  }
 
   @media screen and (max-width: 768px){
-
-    .caja-hover h2{
+      
+       .caja-hover h2{
       font-size: 20px;
     }
-
-     .caja-galeria{
+      
+        .caja-galeria{
          width: 40%;
          height: 200px;
      }
-
+      
       .modal .img{
           margin-top: 50px;
       }
@@ -218,68 +205,21 @@
         .modal4 .img{
         margin-top: 50px;
     }
-      
-      #sec3 .texto-experiencia{
-        font-size: 12px;
-      } 
 
   }
-
-  @media screen and (max-width: 753px){
-
-
-        #sec3 .texto-experiencia{
-          width: 70%;
-          height: 47%;
-          font-size: 12px;
-        }
-
-  }
-
- /* @media screen and (max-height: 1024px){
-     #sec3 .texto-experiencia{
-         height: 40%;
-     }
- } */
-
-  @media screen and (max-width: 701px){
-
-
-    #sec3 .texto-experiencia{
-        height: 45%;
-      font-size: 11px;
-    }
-
-}
 
   @media screen and (max-width: 600px){
-
-    #sec3 h1{
-        font-size: 23px;
-    }
-
-    #sec3 img{
-        width: 500px;
-        height: 500px;
-    }
-
-    #sec3 .texto-experiencia{
-        margin-top: -75px;
-        width: 75%;
-        height: 36%;
-      font-size: 9px;
-    }
-     
-    .caja-galeria{
+      
+       .caja-galeria{
         width: 45%;
         height: 150px;
     }
-
-    .contenido-modal5{
+      
+       .contenido-modal5{
         width: 500px;
         
       }
-
+      
     .modal p::after, .modal p::before{
         display: none;
     }
@@ -299,16 +239,16 @@
        .modal4 p::after, .modal4 p::before{
         display: none;
     }
-
-    .modal5 p::after, .modal5 p::before{
+      
+      .modal5 p::after, .modal5 p::before{
         display: none;
     }
-
   }
 
 
   @media screen and (max-width: 540px){
-    .contenido-modal5{
+      
+      .contenido-modal5{
         width: 450px;
         height: 400px;
     }
@@ -327,7 +267,7 @@
         width: 20px;
         height: 20px;
     }
-
+      
     .modal .img{
         margin-top: 30px;
     }
@@ -355,33 +295,20 @@
       .modal4 p{
           font-size: 13px;
       }
-
-     .seccion2.texto-experiencia{
+      
+      .seccion2.texto-experiencia{
          margin-top: -50px;
      } 
   }
 
-  @media screen and (max-width: 512px){
-      #sec3 .texto-experiencia{
-          width: 80%;
-          height: 33%;
-          font-size: 8px;
-      }
-  }
-
   @media screen and (max-width: 484px){
-
-      #sec3 .texto-experiencia{
-      margin-top: 10px;
-      }
       
-    .caja-galeria{
+       .caja-galeria{
         width: 50%;
         height: 130px;
     }
-
-     
-    .contenido-modal5{
+      
+          .contenido-modal5{
         width: 400px;
         height: 300px;
     }
@@ -401,7 +328,7 @@
         width: 15px;
         height: 15px;
     }
-
+      
       .modal p{
           font-size: 13px;
       }
@@ -413,22 +340,24 @@
          .modal4 p{
         font-size: 10px;
     }
-
-    .seccion2{
+      
+         .seccion2{
         width: 100%;
         height: 600px;
     }
       
-    #sec3 img{
-        margin-top: 150px;
-        width: 400px;
-        height: 400px;
+       .seccion2 .texto-experiencia{
+        margin-top: -50px;
+    }
+      
+       .seccion2 .texto-experiencia h4{
+        font-size: 14px;
     }
 
-    #sec3 h1{
-        margin-top: -10px;
-    }
-
+    .seccion2 .texto-experiencia h1{
+        padding-top: 20px;
+        font-size: 25px;
+    }  
   }
 
   @media screen and (max-width: 472px){
@@ -467,18 +396,37 @@
        .modal4 p{
           font-size: 10px;
       }
+      
+  
 
-      #sec3 .texto-experiencia{
-          font-size: 8px;
-      }
   }
 
-  @media screen and (max-width: 444px){
+  @media screen and (max-width: 462px){
+       .seccion2 .texto-experiencia .texto{
+       font-size: 10px;
+     }
+       
+      .seccion2 .texto-experiencia h4{
+       font-size: 10px;
+     }
+       
+       .seccion3 .contenedor-redes h4{
+           margin-left: -5px;
+           font-size: 9px;
+       }
+}
 
-     .caja-hover h2{
+
+  @media screen and (max-width: 444px){
+      
+      .titulo p{
+      padding-bottom: 20px
+      }
+      
+       .caja-hover h2{
          font-size: 17px;
      }
-
+      
       .modal .img{
           margin-top: 30px;
           width: 60px;
@@ -518,26 +466,20 @@
         font-size: 11px;
     }
       
-      #sec3 img{
-        margin-top: 85px;
-      }
-      
-    #sec3 .texto-experiencia{
-        margin-top: 40px;
-        height: 32%;
-        font-size: 9px;
+
+    .seccion2 .texto-experiencia{
+        margin-top: 35px;
     }
       
   }
 
-  @media screen and (max-width: 420px){
-      #sec3 .texto-experiencia{
-          font-size: 7px;
-      }
-  }
-
   @media screen and (max-width: 414px){
-    .contenido-modal5{
+      
+      .texto-modal{
+      font-size: 23px;
+      }
+      
+       .contenido-modal5{
         width: 350px;
         height: 300px;
     }
@@ -557,26 +499,38 @@
         width: 12px;
         height: 12px;
     }
-
-      .modal .img{
-          margin-top: 30px;
+      
+      .modal .contenido-modal2 .img{
+          margin-top: 40px;
       }
+      
+      .modal .modal-body p{
+        font-size: 9px;
+    }
 
-      .modal2 .img{
-        margin-top: 20px;
+     .modal2 .contenido-modal2 .img{
+        margin-top: 40px;
     }
 
     .modal2 .modal-body2 p{
-        font-size: 11px;
+        font-size: 8px;
     }
 
-    .modal3 .img{
-        margin-top: 30px;
+    .modal3 .contenido-modal3 .img{
+        margin-top: 40px;
     }
       
-        .modal4 .img{
-        margin-top: 30px;
+    .modal3 .modal-body3 p{
+        font-size: 7px;
+    }  
+      
+    .modal4 .contenido-modal4 .img{
+        margin-top: 40px;
     }
+      
+   .modal4 .modal-body4 p{
+        font-size: 9px;
+    }   
 
       
        .seccion3 .contenedor-redes a{
@@ -584,31 +538,37 @@
         height: 50px;
     }
       
-
-      
-    #sec3 .texto-experiencia{
-        font-size: 6px;
-        height: 30%;
+    .seccion2 .texto-experiencia{
+        margin-top: 40px
     }
+      
+     .seccion2 .texto-experiencia .texto{
+        font-size: 12px;
+    }  
+      
+    .portafolio .seccion3{
+        width: 100%;
+        height: 300px;
       
   }
-
-  /* @media screen and (max-height: 736px){
-    #sec3 .texto-experiencia{
-        height: 35%;
-    }
-} */
-
-
+      
+       .seccion3 .contenedor-redes h4{
+          padding-top: 100px;
+      }
+      
+      .seccion3 .contenedor-redes a{
+          padding-top: -100px;
+      }
+}    
 
   @media screen and (max-width: 375px){
-
-    .caja-galeria{
+      
+       .caja-galeria{
         width: 60%;
         height: 110px;
     }
-
-     .contenido-modal5 h2{
+      
+       .contenido-modal5 h2{
          font-size: 18px;
      }
 
@@ -633,7 +593,7 @@
         width: 10px;
         height: 10px;
     }
-
+      
     .modal .img{
         margin-top: 30px;
     }
@@ -642,8 +602,8 @@
         font-size: 11px;
     }
 
-    .modal2 img{
-        margin-top: -200px;
+    .modal2 .img{
+        margin-top: 30px;
     }
     
     .modal2 p{
@@ -651,7 +611,7 @@
     }
 
     .modal3 .img{
-        margin-top: -50px;
+        margin-top: 30px;
     }
     
     .modal3 p{
@@ -659,7 +619,7 @@
     }
       
        .modal4 .img{
-        margin-top: -50px;
+        margin-top: 30px;
     }
     
     .modal4 p{
@@ -670,62 +630,78 @@
        font-size:8px;
           
   }
-  
-     #sec3 img{
-         width: 350px;
-         height: 350px;
-     }
-
-      #sec3 h1{
-          font-size: 19px;
+      
+     .seccion2 .texto-experiencia{
+          margin-top: 20px;
       }
 
-      #sec3 .texto-experiencia{
-          margin-top: -65px;
-          height: 30%;
-          font-size: 5px;
+      .seccion2 .texto-experiencia .texto{
+        font-size: 11px;
       }
       
-     
+      .seccion2 .texto-experiencia h4{
+        font-size: 11px;
+      }
+
+      .seccion2 .texto-experiencia h1{
+        font-size: 22px;
+      }
       
   
 }
 
   @media screen and (max-width: 337px){
-      .modal2 p{
+      
+       .modal2 p{
           font-size: 7px;
       }
       
         .modal4 p{
           font-size: 7px;
       }
-    
-     #sec3 img{
-         width: 300px;
-         height: 300px;
-     }
 
-      #sec3 .texto-experiencia{
-          margin-top: 70px;
-          height: 50%;
-          font-size: 5px;
+      .seccion2 .texto-experiencia .texto{
+          margin-top: 50px
       }
+      
+      .seccion2 .texto-experiencia h4{
+          font-size: 10px;
+      }
+      
+     
+      
+      
+    .seccion2 .texto-experiencia .texto{
+    font-size: 11px;
+}
         
   }
 
+@media screen and (max-width: 330px){
+
+     .seccion2 .texto-experiencia {
+       margin-top: 50px;
+     }
+
+}
 
   @media screen and (max-width: 320px){
-
-    .caja-hover h2{
+      
+      .flex .contenido-modal .texto-modal h2{
+      font-size: 20px;
+      }
+      
+        .caja-hover h2{
         font-size: 12px;
     }
       
-    .caja-galeria{
+      
+       .caja-galeria{
         width: 65%;
         height: 90px;
     }
-
-    .contenido-modal5{
+      
+          .contenido-modal5{
         width: 270px;
         height: 300px;
     }
@@ -746,42 +722,51 @@
         height: 15px;
     }
     
-    .modal-body {
-        margin-top: 30px;
-    }
-    
-    .modal p{
-          font-size: 8px;
-      }
-
-      .modal-body2 {
-        margin-top: 30px;
-    }
-
-      .modal2 p{
-        font-size: 7px;
-    }
-
-    .modal-body3 {
-        margin-top: -20px;
-    }
-
-      .modal3 p{
-        font-size: 6px;
+     .modal .img{
+        width: 40px;
+      height: 40px;
+        margin-top: 15px;
     }
       
-        .modal-body4 {
-        margin-top: 30px;
-    }
-
-      .modal4 p{
-        font-size: 7px;
-    }
-      
- 
+      .modal .modal-body p{
+      font-size: 7px;
   }
 
+    .modal2 .flex2 .img{
+        width: 40px;
+      height: 40px;
+      margin-top: 15px;
+  }
+
+  .modal2 .modal-body2 p{
+      font-size: 6px;
+  }
+
+  .modal3 .img{
+    width: 40px;
+    height: 40px;
+      margin-top: 15px;
+  }
+    
+  .modal3 .modal-body3 p{
+    font-size: 5px;
+}
+
+      .modal4 .img{
+      width: 40px;
+      height: 40px;
+      margin-top: 15px;
+  }
+      
+  .modal4 .modal-body4 p{
+    font-size: 6px;
+} 
+      
+   .seccion2 .texto-experiencia {
+        margin-top: -10px;
+    }
  
+  }
 
   @media screen and (max-width: 313px){
     .modal3 .img{
@@ -835,7 +820,7 @@
 
     @media screen and (max-width: 280px){
         
-        .contenido-modal5{
+           .contenido-modal5{
             width: 250px;
             height: 300px;
         }
@@ -855,7 +840,7 @@
             width: 15px;
             height: 15px;
         }
-
+        
         .modal .img{
             margin-top: 40px;
             width: 60px;
@@ -916,40 +901,15 @@
             width: 50px;
             height: 50px;
         }
-
-         #sec3 img{
-             width: 230px;
-             height: 230px;
-         }
-
-
-         #sec3 .texto-experiencia{
-             height: 20%;
-             font-size: 4px;
-         }
-    }
-
-    /* @media screen and (max-height: 653px){
-        #sec3 .texto-experiencia{
-            height: 27%;
+        
+          .seccion2 .texto-experiencia{
+            margin-top: -50px;
         }
     }
-
-    @media screen and (max-height: 640px){
-        #sec3 .texto-experiencia{
-            height: 35%;
-        }
-    }
-
-    @media screen and (max-height: 568px){
-        #sec3 .texto-experiencia{
-            height: 35%;
-        }
-    } */
 
   @media screen and (max-width: 250px){
-
-    .contenido-modal5{
+      
+       .contenido-modal5{
         width: 230px;
         height: 300px;
     }
@@ -991,6 +951,6 @@
     }
       
       .modal4 .texto-modal{
-        font-size: 17px;
+        font-size: 18px;
      }
   }
