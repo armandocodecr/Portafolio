@@ -717,8 +717,6 @@ display: none;
   justify-content: center;
   align-items: center; */
   position: absolute;
-  background-color: rgba(216, 216, 216, 0.3);
-  padding: 15px 10px 5px 10px;
   width: 70%;
   height: 55%;
   font-size: 20px;
