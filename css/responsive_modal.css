@@ -675,13 +675,12 @@
       }
 
       #sec3 .texto-experiencia{
-          height: 27%;
+          margin-top: -30px;
+          height: 30%;
           font-size: 5px;
       }
       
-       #sec3 .texto{
-       padding-top: -20px;
-      } 
+     
       
   
 }
