@@ -264,6 +264,7 @@
     }
 
     #sec3 .texto-experiencia{
+        margin-top: -100px;
         width: 75%;
         height: 36%;
       font-size: 9px;
