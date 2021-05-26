@@ -371,6 +371,10 @@
 
   @media screen and (max-width: 484px){
 
+      #sec3 .texto-experiencia{
+      margin-top: 50px;
+      }
+      
     .caja-galeria{
         width: 50%;
         height: 130px;
