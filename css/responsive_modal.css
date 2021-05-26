@@ -580,6 +580,7 @@
     }
       
     #sec3 .texto-experiencia{
+        font-size: 6px;
         height: 30%;
     }
       
@@ -695,7 +696,7 @@
      }
 
       #sec3 .texto-experiencia{
-          height: 25%;
+          height: 40%;
           font-size: 5px;
       }
         
