@@ -579,9 +579,7 @@
         height: 50px;
     }
       
-      #sec3 .texto{
-       padding-top: -20px;
-      } 
+
       
     #sec3 .texto-experiencia{
         height: 30%;
@@ -680,6 +678,10 @@
           height: 27%;
           font-size: 5px;
       }
+      
+       #sec3 .texto{
+       padding-top: -20px;
+      } 
       
   
 }
