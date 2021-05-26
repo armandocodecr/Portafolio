@@ -420,6 +420,7 @@
   @media screen and (max-width: 444px){
       
       .titulo p{
+       margin-top: 110px;
       padding-bottom: 20px
       }
       
