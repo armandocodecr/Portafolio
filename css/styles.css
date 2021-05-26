@@ -698,9 +698,6 @@ display: none;
     right: -140px;
   }
   
- #sec3 .texto-experiencia{
-  padding-top: 20px;
-}
 
 .seccion2 {
   width: 100%;
@@ -727,7 +724,6 @@ display: none;
   font-size: 20px;
   margin-top: 50px;
   border-radius: 30px;
-  backdrop-filter: blur(15px);
 }
 
 .texto-experiencia h1::after, .texto-experiencia h1::before{
