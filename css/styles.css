@@ -700,12 +700,13 @@ display: none;
   
 
 .seccion2 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -125px;
-  background-color: #f7f7f7;
+width: 100%;
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -125px;
+background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 }
 
 .seccion2 img{
