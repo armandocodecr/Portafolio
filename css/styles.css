@@ -156,7 +156,7 @@
   }
   
   .seccion {
-    background-color: #d44e00;
+      background: linear-gradient(to right, #fe8c00, #f83600);
   }
   
   .portafolio {
@@ -205,7 +205,7 @@
   }
   
   .seccion1 {
-    background-color: #ffffff;
+   background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   }
   .seccion1 p {
     margin-top: 100px;
@@ -239,7 +239,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ffffff;
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 }
 .seccion1 .contenedor-habilidades img {
   width: 80px;
@@ -757,7 +757,7 @@ background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   
   .seccion3 {
     height: 700px;
-    background-color: #d44e00;
+     background: linear-gradient(to right, #fe8c00, #f83600);
   }
   
   .seccion3 .contenedor-redes {
