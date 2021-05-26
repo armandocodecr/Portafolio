@@ -563,6 +563,10 @@
 
   @media screen and (max-width: 375px){
       
+       .titulo p{
+         margin-top: 30px;
+     }
+      
        .caja-galeria{
         width: 60%;
         height: 110px;
