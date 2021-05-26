@@ -363,10 +363,9 @@
 
   @media screen and (max-width: 512px){
       #sec3 .texto-experiencia{
-          margin-top: 70px;
           width: 80%;
           height: 33%;
-          font-size: 9px;
+          font-size: 8px;
       }
   }
 
