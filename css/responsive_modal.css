@@ -518,9 +518,14 @@
         font-size: 11px;
     }
       
+      #sec3 img{
+        margin-top: -50px;
+      }
+      
     #sec3 .texto-experiencia{
+        margin-top: 40px;
         height: 32%;
-        font-size: 8px;
+        font-size: 9px;
     }
       
   }
