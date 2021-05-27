@@ -462,7 +462,7 @@
   @media screen and (max-width: 444px){
       
       .seccion{
-        height: 800px;
+        height: 850px;
     }
       
          .contenedor-imagenes h2{
@@ -751,6 +751,10 @@
 }
 
   @media screen and (max-width: 320px){
+      
+       .seccion{
+        height: 780px;
+    }
       
       .flex .contenido-modal .texto-modal h2{
       font-size: 20px;
