@@ -843,3 +843,35 @@ background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   height: 100%;
   object-fit: cover;
 }
+
+.botones{
+  position: relative;
+  width: 80%;
+  height: 35%;
+  position: absolute;
+  margin-top: 410px;
+}
+
+.botones button{
+  font-family: "Raleway", sans-serif;
+  width: 35%;
+  height: 65px;
+  background: transparent;
+  font-size: 16px;
+  margin-left: 40px;
+  font-weight: 900;
+   border: 2px solid rgb(20, 20, 20);
+   border-radius:   30px;
+  padding: 20px 20px 20px 20px;
+  transition: all ease 500ms;
+}
+
+.botones a{
+  color: #000;
+  text-decoration: none;
+}
+
+.botones button:hover{
+  cursor: pointer;
+  background-color: #f83600;
+}
