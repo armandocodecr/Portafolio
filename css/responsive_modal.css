@@ -461,6 +461,10 @@
 
   @media screen and (max-width: 444px){
       
+      .seccion{
+        height: 800px;
+    }
+      
          .contenedor-imagenes h2{
         font-size: 28px;
     }
