@@ -854,7 +854,7 @@ overflow: hidden;
 
 .botones{
   position: relative;
-  width: 80%;
+  width: 70%;
   height: 35%;
   position: absolute;
   margin-top: 410px;
@@ -862,15 +862,13 @@ overflow: hidden;
 
 .botones button{
   font-family: "Raleway", sans-serif;
-  width: 35%;
-  height: 65px;
+  width: 40%;
+  height: 40px;
   background: transparent;
   font-size: 16px;
-  margin-left: 40px;
   font-weight: 900;
    border: 2px solid rgb(20, 20, 20);
    border-radius:   30px;
-  padding: 20px 20px 20px 20px;
   transition: all ease 500ms;
 }
 
