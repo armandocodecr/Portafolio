@@ -54,20 +54,17 @@
 */
   @media screen and (max-width: 1244px){
       
-         .caja-galeria{
+        .caja-galeria{
       width: 400px;
       height: 250px;
     }
 
     .botones{
-        margin-left: -30px;
         margin-top: 370px;
     }
 
     .botones button{
-        padding-bottom: 37px;
         font-size: 14px;
-        width: 30%;
         height: 30px;
     }
 
@@ -190,31 +187,32 @@
      }
   }
 
+   @media screen and (max-width: 866px){
+       
+    .seccion{
+        height: 1250px;
+    }
+
+
+      .proyectos__grid{
+          grid-template-columns: 1fr;
+      }
+  }
+
 
   @media screen and (max-width: 768px){
       
        .caja-hover h2{
       font-size: 20px;
     }
-         .caja-galeria{
-         width: 80%;
-         height: 300px;
+          .caja-galeria{
+         width: 65%;
+         height: 250px;
      }
 
      .botones{
-         margin-left: -1px;
-         margin-top: 420px;
+         margin-top: 380px;
      }
-
-      .botones button{
-          margin: 0 auto;
-          display: block;
-          margin-bottom: 10px;
-          border-radius: 25px;
-          width: 100%;
-          height: 10px;
-          font-size: 15px;
-      }
       
       .modal .img{
           margin-top: 50px;
@@ -236,15 +234,16 @@
 
   @media screen and (max-width: 600px){
       
-        .caja-galeria{
-        width: 80%;
-        height: 300px;
+      .seccion{
+        height: 1200px;
     }
-
-    .botones button{
-        width: 100%;
-        height: 10px;
-        font-size: 14px;
+      
+       .caja-galeria{
+        height: 200px;
+    }
+      
+        .botones{
+        margin-top: 330px;
     }
       
        .contenido-modal5{
@@ -334,20 +333,9 @@
   }
 
   @media screen and (max-width: 484px){
-      
-         .caja-galeria{
-        width: 80%;
-        height: 250px;
-    }
-
-    .botones{
-        margin-top: 380px;
-    }
-
-    .botones button{
-        width: 100%;
-        height: 10px;
-        font-size: 14px;
+    
+      .caja-galeria{
+        height: 180px;
     }
       
           .contenido-modal5{
@@ -461,9 +449,6 @@
 
   @media screen and (max-width: 444px){
       
-      .seccion{
-        height: 870px;
-    }
       
          .contenedor-imagenes h2{
         font-size: 28px;
@@ -618,20 +603,23 @@
          margin-top: 100px;
      }
       
-       .caja-galeria{
-        width: 80%;
-        height: 200px;
-    }
+       .seccion{
+          height: 1100px;
+      }
 
+     .contenedor-proyectos{
+         height: 330px;
+     }
 
-    .botones{
-        margin-top: 330px;
-    }
-
-    .botones button{
-        width: 100%;
-        font-size: 14px;
-    }
+     .caja-galeria{
+         width: 78%;
+         height: 160px;
+     }
+      
+      .botones{
+          width: 80%;
+          margin-top: 290px;
+      }
       
        .contenido-modal5 h2{
          font-size: 18px;
@@ -752,9 +740,7 @@
 
   @media screen and (max-width: 320px){
       
-       .seccion{
-        height: 780px;
-    }
+     
       
       .flex .contenido-modal .texto-modal h2{
       font-size: 20px;
@@ -765,14 +751,15 @@
     }
       
       
+  
        .caja-galeria{
         width: 80%;
-        height: 150px;
     }
 
     .botones{
-        margin-top: 270px;
+        margin-top: 290px;
     }
+      
       
           .contenido-modal5{
         width: 270px;
