@@ -83,6 +83,21 @@
         width: 25px;
      }
       
+      .flex6 .contenido-modal6 img{
+       width: 350px;
+        height: 200px;
+    }
+
+    .flex6 .contenido-modal6 p{
+        font-size: 16px;
+     }
+
+     .flex6 .modal-body6 img{
+        position: absolute;
+        margin-top: -60px;
+        width: 25px;
+     }
+      
       .flex2 .contenido-modal2 img{
         margin-top: 80px;
      }
@@ -140,6 +155,10 @@
     .flex5 .contenido-modal5 p{
         font-size: 14px;
      }
+     
+      .flex6 .contenido-modal6 p{
+        font-size: 14px;
+     }
   }
 
  @media screen and (max-width: 1168px){
@@ -151,6 +170,10 @@
   @media screen and (max-width: 1040px){
 
      .flex5 .contenido-modal5 p{
+        font-size: 13px;
+     }
+      
+       .flex6 .contenido-modal6 p{
         font-size: 13px;
      }
       
@@ -183,6 +206,15 @@
      }
 
      .flex5 .modal-body5 img{
+         margin-left: -10px;
+     }
+       
+        .flex6 .contenido-modal6 .img{
+        width: 330px;
+         height: 180px;
+     }
+
+     .flex6 .modal-body6 img{
          margin-left: -10px;
      }
   }
@@ -251,6 +283,10 @@
         
       }
       
+       .contenido-modal6{
+        width: 500px;
+      }
+      
     .modal p::after, .modal p::before{
         display: none;
     }
@@ -274,6 +310,9 @@
       .modal5 p::after, .modal5 p::before{
         display: none;
     }
+      .modal6 p::after, .modal6 p::before{
+        display: none;
+    }
   }
 
 
@@ -294,6 +333,26 @@
     }
 
     .flex5 .modal-body5 img{
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+      
+        .contenido-modal6{
+        width: 450px;
+        height: 400px;
+    }
+
+    .flex6 .contenido-modal6 .img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .flex6 .modal-body6 p{
+        font-size: 10px;
+    }
+
+    .flex6 .modal-body6 img{
         margin-top: 15px;
         width: 20px;
         height: 20px;
@@ -354,6 +413,27 @@
     }
 
     .flex5 .modal-body5 img{
+        margin-top: 15px;
+        width: 15px;
+        height: 15px;
+    }
+      
+       .contenido-modal6{
+        width: 400px;
+        height: 300px;
+    }
+
+    .flex6 .contenido-modal6 .img{
+        margin-top: 15px;
+        width: 220px;
+        height: 100px;
+    }
+
+    .flex6 .modal-body6 p{
+        font-size: 8px;
+    }
+
+    .flex6 .modal-body6 img{
         margin-top: 15px;
         width: 15px;
         height: 15px;
@@ -536,6 +616,27 @@
         height: 12px;
     }
       
+       .contenido-modal6{
+        width: 350px;
+        height: 300px;
+    }
+
+    .flex6 .contenido-modal6 .img{
+        margin-top: 15px;
+        width: 220px;
+        height: 100px;
+    }
+
+    .flex6 .modal-body6 p{
+        font-size: 8px;
+    }
+
+    .flex6 .modal-body6 img{
+        margin-top: 10px;
+        width: 12px;
+        height: 12px;
+    }
+      
       .modal .contenido-modal2 .img{
           margin-top: 40px;
       }
@@ -646,6 +747,32 @@
         width: 10px;
         height: 10px;
     }
+      
+       .contenido-modal6 h2{
+        font-size: 18px;
+    }
+
+   .contenido-modal6{
+       width: 300px;
+       height: 280px;
+   }
+
+   .flex6 .contenido-modal6 .img{
+       margin-top: 15px;
+       width: 190px;
+       height: 100px;
+   }
+
+   .flex6 .modal-body6 p{
+       margin-top: -10px;
+       font-size: 7px;
+   }
+
+   .flex6 .modal-body6 img{
+       margin-top: 7px;
+       width: 10px;
+       height: 10px;
+   }
       
     .modal .img{
         margin-top: 30px;
@@ -786,6 +913,27 @@
         width: 15px;
         height: 15px;
     }
+      
+      .contenido-modal6{
+        width: 270px;
+        height: 300px;
+    }
+
+    .flex6 .contenido-modal6 .img{
+        margin-top: 18px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .flex6 .modal-body6 p{
+        font-size: 7px;
+    }
+
+    .flex6 .modal-body6 img{
+        margin-top: 15px;
+        width: 15px;
+        height: 15px;
+    }
     
      .modal .img{
         width: 40px;
@@ -901,6 +1049,22 @@
         }
     
         .flex5 .modal-body5 img{
+            margin-top: 15px;
+            width: 15px;
+            height: 15px;
+        }
+        
+         .flex6 .contenido-modal6 .img{
+            margin-top: 18px;
+            width: 200px;
+            height: 100px;
+        }
+    
+        .flex6 .modal-body6 p{
+            font-size: 7px;
+        }
+    
+        .flex6 .modal-body6 img{
             margin-top: 15px;
             width: 15px;
             height: 15px;
