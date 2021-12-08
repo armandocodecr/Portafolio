@@ -209,6 +209,10 @@
       .seccion2.texto-experiencia{
          margin-top: -50px;
      } 
+      
+      .botones button{
+         width: 40%;
+     }
   }
 
   @media screen and (max-width: 484px){
