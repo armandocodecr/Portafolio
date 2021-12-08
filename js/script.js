@@ -31,26 +31,6 @@ $(document).ready(function(){
    })
 })
 
-let modal = document.getElementById('miModal');
-let flex = document.getElementById('flex');
-let abrir = document.getElementById('html');
-let cerrar = document.getElementById('close');
-
-abrir.addEventListener('click', function(e){
-    e.preventDefault();
-    modal.style.display = 'block';
-});
-
-
-cerrar.addEventListener('click', function(){
-    modal.style.display = 'none';
-});
-
-window.addEventListener('click', function(e){
-    if(e.target == flex){
-        modal.style.display = 'none'
-    }
-});
 
 // Animacion a la hora de hacer scroll
 
