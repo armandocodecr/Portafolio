@@ -8,7 +8,7 @@
   .contenedor_loader{
       background-color: #fff;
       position: fixed;
-      width: 100vw;
+      width: 100vh;
       height: 100vh;
       z-index: 9999;
       transition: all 1.5s ease-in-out;
