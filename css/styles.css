@@ -205,7 +205,7 @@
   }
   
   .seccion1 {
-   height: 900px
+   height: 900px;
    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   }
   .seccion1 p {
