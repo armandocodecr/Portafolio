@@ -568,11 +568,16 @@ background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 
 /* Proyectos */
 
+#sec1{
+  height: 1250px;
+}
+
 .proyectos__grid{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 50px 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
 }
 
 .contenedor-proyectos{
@@ -583,8 +588,8 @@ height: 380px;
 }
 
 .caja-galeria{
-width: 70%;
-height: 290px;
+width: 60%;
+height: 230px;
 margin-top: 100px;
 position: relative;
 box-shadow: 0 0 10px 2px #000;
@@ -592,9 +597,8 @@ cursor: pointer;
 overflow: hidden;
 }
 
-
 .caja-galeria:hover .caja-hover{
-  transform: translate(0);
+transform: translate(0);
 }
 
 .caja-hover{
