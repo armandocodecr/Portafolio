@@ -597,6 +597,10 @@ cursor: pointer;
 overflow: hidden;
 }
 
+.caja-galeria h2{
+  margin-top: 95px;
+}
+
 .caja-galeria:hover .caja-hover{
 transform: translate(0);
 }
