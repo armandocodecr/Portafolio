@@ -535,6 +535,10 @@
 
   @media screen and (max-width: 320px){
       
+     #sec1{
+        height: 1400px;
+    }
+      
         .caja-hover h2{
         font-size: 12px;
     }
