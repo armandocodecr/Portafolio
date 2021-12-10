@@ -535,6 +535,11 @@ background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
     justify-content: space-evenly;
     margin-top: 95px;
   }
+
+  .seccion3 .contenedor-redes #linkd{
+  margin-top: -10px;
+  }
+
   .seccion3 .contenedor-redes a {
     margin-top: 140px;
     width: 75px;
