@@ -105,12 +105,17 @@
   @media screen and (max-width: 866px){
        
     .seccion{
-        height: 1250px;
+        height: 1700px;
     }
 
 
       .proyectos__grid{
           grid-template-columns: 1fr;
+          grid-template-rows: 10px;
+      }
+      
+      .proximo .caja-galeria{
+          visibility: hidden;
       }
   }
 
@@ -216,6 +221,10 @@
   }
 
   @media screen and (max-width: 484px){
+      
+      #sec1{
+        height: 1600px;
+    }
       
     .caja-galeria{
         height: 180px;
@@ -397,6 +406,10 @@
 }    
 
   @media screen and (max-width: 375px){
+      
+     #sec1{
+        height: 1600px;
+    }
 
      .titulo p{
          margin-top: 100px;
