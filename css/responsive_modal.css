@@ -403,6 +403,10 @@
       .seccion3 .contenedor-redes a{
           padding-top: -100px;
       }
+      
+       .seccion3 .contenedor-redes #linkd{
+        width: 70px;
+      }
 }    
 
   @media screen and (max-width: 375px){
