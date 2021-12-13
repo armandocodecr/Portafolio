@@ -53,3 +53,30 @@ window.addEventListener('click', function(e){
         modal6.style.display = 'none'
     }
 });
+
+let modal7 = document.getElementById('miModal7');
+let flex7 = document.getElementById('flex7');
+let abrir9 = document.getElementById('uno4');
+let abrir10 = document.getElementById('uno5');
+let cerrar7 = document.getElementById('close7');
+
+abrir9.addEventListener('click', function(e){
+    e.preventDefault();
+    modal7.style.display = 'block';
+});
+
+ abrir10.addEventListener('click', function(e){
+    e.preventDefault();
+     modal7.style.display = 'block';
+ });
+
+
+cerrar7.addEventListener('click', function(){
+    modal7.style.display = 'none';
+});
+
+window.addEventListener('click', function(e){
+    if(e.target == flex7){
+        modal7.style.display = 'none'
+    }
+});
