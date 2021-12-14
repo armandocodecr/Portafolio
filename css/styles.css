@@ -565,15 +565,11 @@ margin-top: -125px;
 background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 }
 
-.seccion2 img{
-  margin-top: 100px;
-}
 
 .texto-experiencia {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  position: absolute;
   width: 70%;
   height: 55%;
   font-size: 20px;
@@ -586,10 +582,6 @@ background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   display: none;
 }
 
-.texto-experiencia img {
-  width: 600px;
-  height: 600px;
-}
   
   .seccion3 p {
     display: inline-block;
